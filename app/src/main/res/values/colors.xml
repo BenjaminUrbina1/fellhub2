@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="default_day_text_color">#FF000000</color> <!-- Negro por defecto para el texto -->
+    <color name="day_text_color_on_pink_bg">#FFFFFFFF</color> <!-- Blanco para texto sobre fondo rosado -->
+
+    <color name="day_background_default">@android:color/transparent</color> <!-- Fondo transparente por defecto -->
+    <color name="day_background_pressed">#FFB6C1</color> <!-- Un rosado más claro para presionado -->
+    <color name="day_background_selected">#FFFF69B4</color> <!-- Rosado (HotPink) para el fondo SELECCIONADO -->
+
+    <color name="today_border_color">#FF0000FF</color>
+    <color name="celeste_dia_1">#87CEEB</color> <!-- Sky Blue -->
+    <color name="rojo_claro_dia_12">#FFA07A</color> <!-- Light Salmon / Light Red -->
+    <color name="amarillo_dia_16">#FFFFE0</color> <!-- Light Yellow -->
+    <color name="naranjo_dia_22">#FFDAB9</color> <!-- Peach Puff / Light Orange -->
+    <color name="default_day_background">@android:color/white</color> <!-- O el color de fondo por defecto que uses -->
+
+</resources>
+

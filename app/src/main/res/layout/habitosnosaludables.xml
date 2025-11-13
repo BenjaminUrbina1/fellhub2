@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal">
+
+    <!-- Título principal -->
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¡4 hábitos NO saludables que debes evitar!"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#D32F2F"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Hábito 1 -->
+    <TextView
+        android:id="@+id/tvHabito1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1-Permanecer sentado más de 6 horas al día sin actividad física"
+        android:textSize="16sp"
+        android:background="#FFEBEE"
+        android:textColor="#B71C1C"
+        android:padding="16dp"
+        android:layout_marginBottom="12dp"
+        android:elevation="4dp"/>
+
+    <!-- Hábito 2 -->
+    <TextView
+        android:id="@+id/tvHabito2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2-Dormir menos de 6 horas y usar pantallas hasta altas horas"
+        android:textSize="16sp"
+        android:background="#FFCDD2"
+        android:textColor="#B71C1C"
+        android:padding="16dp"
+        android:layout_marginBottom="12dp"
+        android:elevation="4dp"/>
+
+    <!-- Hábito 3 -->
+    <TextView
+        android:id="@+id/tvHabito3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3-Evitar contacto con familiares y amigos constantemente"
+        android:textSize="16sp"
+        android:background="#EF9A9A"
+        android:textColor="#B71C1C"
+        android:padding="16dp"
+        android:layout_marginBottom="12dp"
+        android:elevation="4dp"/>
+
+    <!-- Hábito 4 -->
+    <TextView
+        android:id="@+id/tvHabito4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4- Usar alcohol, tabaco o automedicación para manejar emociones"
+        android:textSize="16sp"
+        android:background="#E57373"
+        android:textColor="#B71C1C"
+        android:padding="16dp"
+        android:layout_marginBottom="32dp"
+        android:elevation="4dp"/>
+
+    <!-- Invitación a reflexionar -->
+    <TextView
+        android:id="@+id/tvInvitacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="¿Has tenido algún habito dañino?, mencionalo"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Campo para compartir compromiso -->
+    <EditText
+        android:id="@+id/etCompromiso"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:hint="Escribe qué hábito negativo quieres cambiar y cómo..."
+        android:inputType="textMultiLine"
+        android:gravity="start"
+        android:background="#FFF5F5"
+        android:textColor="#B71C1C"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Botones de acción -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <!-- Botón enviar -->
+        <Button
+            android:id="@+id/btnEnviarReflexion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Comprometerme"
+            android:backgroundTint="#D32F2F"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="8dp"/>
+
+        <!-- Botón regresar -->
+        <Button
+            android:id="@+id/btnRegresarnosaludables"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Regresar"
+            android:backgroundTint="#9E9E9E"
+            android:textColor="#FFFFFF"
+            android:layout_marginStart="8dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

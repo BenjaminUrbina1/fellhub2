@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Texto cuando el día está seleccionado -->
+    <item android:state_selected="true" android:color="@color/day_text_color_on_pink_bg" />
+    <!-- Texto cuando el día está presionado (si el fondo presionado también es oscuro o del mismo color que seleccionado) -->
+    <item android:state_pressed="true" android:color="@color/day_text_color_on_pink_bg" />
+    <!-- Texto cuando el día está enfocado (si el fondo enfocado también es oscuro o del mismo color que seleccionado) -->
+    <item android:state_focused="true" android:color="@color/day_text_color_on_pink_bg" />
+    <!-- Estado por defecto (texto negro) -->
+    <item android:color="@color/default_day_text_color" />
+</selector>

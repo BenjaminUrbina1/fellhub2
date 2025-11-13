@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Estado seleccionado Y presionado (cuando se vuelve a presionar un día ya seleccionado) -->
+    <item android:state_selected="true" android:state_pressed="true">
+        <shape android:shape="oval"> <!-- O rectangle si prefieres celdas cuadradas -->
+            <solid android:color="@color/day_background_pressed"/> <!-- Rosado más claro -->
+            <stroke android:width="1dp" android:color="@color/day_background_selected" /> <!-- Borde del color de selección -->
+        </shape>
+    </item>
+
+    <!-- Estado seleccionado (cuando el día está marcado como la selección actual) -->
+    <item android:state_selected="true">
+        <shape android:shape="oval"> <!-- O rectangle -->
+            <solid android:color="@color/day_background_selected"/> <!-- Rosado de selección -->
+        </shape>
+    </item>
+
+    <!-- Estado presionado (cuando el dedo está sobre el día, antes de seleccionar) -->
+    <item android:state_pressed="true">
+        <shape android:shape="oval"> <!-- O rectangle -->
+            <solid android:color="@color/day_background_pressed"/> <!-- Rosado más claro -->
+        </shape>
+    </item>
+
+    <!-- Estado enfocado (para navegación con D-pad/teclado, opcional pero bueno tenerlo) -->
+    <item android:state_focused="true">
+        <shape android:shape="oval"> <!-- O rectangle -->
+            <solid android:color="@color/day_background_pressed"/> <!-- Mismo que presionado o uno diferente -->
+        </shape>
+    </item>
+
+    <!-- Estado por defecto (transparente) -->
+    <item android:drawable="@color/day_background_default" />
+</selector>
