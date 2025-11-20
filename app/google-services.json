@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "983225605826",
+    "project_id": "fellhubpub",
+    "storage_bucket": "fellhubpub.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983225605826:android:7daf1777dab44f1ddf255b",
+        "android_client_info": {
+          "package_name": "com.devst.apoyovirtual"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbM4EMnrpv3dUL1vU9tNlIGkduI_LGy88"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
